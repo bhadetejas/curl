@@ -1,0 +1,105 @@
+device=cuda  updates=1200  scenes=12  rollouts=8
+/home/tejas/curl/.venv/lib/python3.13/site-packages/triton/knobs.py:504: UserWarning: TRITON_DEFAULT_FP_FUSION is unset: defaulting to FP fusion ENABLED for backward compatibility in Triton 3.9. The default will change to DISABLED in Triton 3.10; set TRITON_DEFAULT_FP_FUSION=1 to keep fusion enabled or =0 to adopt the new default early and silence this warning.
+  warn_once(FP_FUSION_DEFAULT_WARNING)
+update    1  train return +0.550  lr 3.00e-04  ent 0.0100  elapsed 8s
+update   10  train return +1.849  lr 3.00e-04  ent 0.0099  elapsed 69s
+update   20  train return +1.944  lr 3.00e-04  ent 0.0098  elapsed 130s
+update   30  train return +2.127  lr 3.00e-04  ent 0.0098  elapsed 193s
+update   40  train return +2.504  lr 2.99e-04  ent 0.0097  elapsed 258s
+update   50  train return +2.344  lr 2.99e-04  ent 0.0096  elapsed 315s
+update   60  train return +2.663  lr 2.98e-04  ent 0.0095  elapsed 373s
+update   70  train return +2.623  lr 2.98e-04  ent 0.0094  elapsed 431s
+update   80  train return +2.809  lr 2.97e-04  ent 0.0093  elapsed 491s
+update   90  train return +2.037  lr 2.96e-04  ent 0.0093  elapsed 551s
+update  100  train return +2.096  lr 2.95e-04  ent 0.0092  elapsed 613s
+VAL update  100  generated: coverage 99.81% overlap 79.7% travel 6.02 m reward +2.992  |  vanity: coverage 81.52% steps 42 stuck True reward +1.139  score +2.065  <- best, saved
+update  110  train return +2.549  lr 2.94e-04  ent 0.0091  elapsed 675s
+update  120  train return +2.441  lr 2.93e-04  ent 0.0090  elapsed 733s
+update  130  train return +2.201  lr 2.92e-04  ent 0.0089  elapsed 796s
+update  140  train return +2.624  lr 2.91e-04  ent 0.0088  elapsed 854s
+update  150  train return +2.611  lr 2.90e-04  ent 0.0088  elapsed 913s
+update  160  train return +2.713  lr 2.88e-04  ent 0.0087  elapsed 973s
+update  170  train return +2.633  lr 2.87e-04  ent 0.0086  elapsed 1037s
+update  180  train return +2.632  lr 2.85e-04  ent 0.0085  elapsed 1099s
+update  190  train return +2.880  lr 2.84e-04  ent 0.0084  elapsed 1158s
+update  200  train return +2.636  lr 2.82e-04  ent 0.0083  elapsed 1224s
+VAL update  200  generated: coverage 93.46% overlap 78.1% travel 5.83 m reward +2.698  |  vanity: coverage 96.56% steps 101 stuck False reward +2.105  score +2.402  <- best, saved
+update  210  train return +2.848  lr 2.80e-04  ent 0.0083  elapsed 1295s
+update  220  train return +2.506  lr 2.78e-04  ent 0.0082  elapsed 1355s
+update  230  train return +2.690  lr 2.76e-04  ent 0.0081  elapsed 1413s
+update  240  train return +2.800  lr 2.74e-04  ent 0.0080  elapsed 1474s
+update  250  train return +2.717  lr 2.72e-04  ent 0.0079  elapsed 1539s
+update  260  train return +2.781  lr 2.70e-04  ent 0.0078  elapsed 1598s
+update  270  train return +2.510  lr 2.68e-04  ent 0.0078  elapsed 1663s
+update  280  train return +2.869  lr 2.65e-04  ent 0.0077  elapsed 1716s
+update  290  train return +2.656  lr 2.63e-04  ent 0.0076  elapsed 1778s
+update  300  train return +2.932  lr 2.60e-04  ent 0.0075  elapsed 1842s
+VAL update  300  generated: coverage 99.83% overlap 78.0% travel 5.96 m reward +3.007  |  vanity: coverage 98.79% steps 101 stuck False reward +2.344  score +2.676  <- best, saved
+update  310  train return +2.859  lr 2.58e-04  ent 0.0074  elapsed 1908s
+update  320  train return +2.688  lr 2.55e-04  ent 0.0073  elapsed 1971s
+update  330  train return +2.620  lr 2.53e-04  ent 0.0073  elapsed 2031s
+update  340  train return +2.816  lr 2.50e-04  ent 0.0072  elapsed 2093s
+update  350  train return +2.798  lr 2.47e-04  ent 0.0071  elapsed 2161s
+update  360  train return +2.907  lr 2.44e-04  ent 0.0070  elapsed 2226s
+update  370  train return +2.894  lr 2.41e-04  ent 0.0069  elapsed 2290s
+update  380  train return +2.647  lr 2.39e-04  ent 0.0068  elapsed 2350s
+update  390  train return +2.821  lr 2.36e-04  ent 0.0068  elapsed 2415s
+update  400  train return +2.717  lr 2.33e-04  ent 0.0067  elapsed 2476s
+VAL update  400  generated: coverage 99.07% overlap 76.8% travel 5.83 m reward +2.996  |  vanity: coverage 81.95% steps 62 stuck True reward +1.524  score +2.260
+update  410  train return +2.881  lr 2.29e-04  ent 0.0066  elapsed 2541s
+update  420  train return +3.026  lr 2.26e-04  ent 0.0065  elapsed 2597s
+update  430  train return +2.958  lr 2.23e-04  ent 0.0064  elapsed 2660s
+update  440  train return +2.849  lr 2.20e-04  ent 0.0063  elapsed 2719s
+update  450  train return +2.944  lr 2.17e-04  ent 0.0063  elapsed 2781s
+update  460  train return +2.931  lr 2.13e-04  ent 0.0062  elapsed 2838s
+update  470  train return +2.765  lr 2.10e-04  ent 0.0061  elapsed 2896s
+update  480  train return +2.948  lr 2.07e-04  ent 0.0060  elapsed 2953s
+update  490  train return +3.037  lr 2.03e-04  ent 0.0059  elapsed 3009s
+update  500  train return +2.597  lr 2.00e-04  ent 0.0058  elapsed 3070s
+VAL update  500  generated: coverage 99.47% overlap 78.8% travel 6.00 m reward +2.985  |  vanity: coverage 82.66% steps 66 stuck True reward +1.541  score +2.263
+update  510  train return +2.834  lr 1.97e-04  ent 0.0058  elapsed 3145s
+update  520  train return +3.004  lr 1.93e-04  ent 0.0057  elapsed 3196s
+update  530  train return +2.644  lr 1.90e-04  ent 0.0056  elapsed 3249s
+update  540  train return +2.313  lr 1.86e-04  ent 0.0055  elapsed 3301s
+update  550  train return +3.053  lr 1.83e-04  ent 0.0054  elapsed 3351s
+update  560  train return +2.977  lr 1.79e-04  ent 0.0053  elapsed 3398s
+update  570  train return +3.097  lr 1.76e-04  ent 0.0053  elapsed 3450s
+update  580  train return +2.908  lr 1.72e-04  ent 0.0052  elapsed 3497s
+update  590  train return +3.171  lr 1.69e-04  ent 0.0051  elapsed 3545s
+update  600  train return +2.985  lr 1.65e-04  ent 0.0050  elapsed 3593s
+VAL update  600  generated: coverage 98.38% overlap 76.2% travel 5.71 m reward +2.983  |  vanity: coverage 97.97% steps 101 stuck False reward +2.416  score +2.700  <- best, saved
+update  610  train return +2.988  lr 1.61e-04  ent 0.0049  elapsed 3649s
+update  620  train return +2.857  lr 1.58e-04  ent 0.0048  elapsed 3701s
+update  630  train return +3.091  lr 1.54e-04  ent 0.0048  elapsed 3750s
+update  640  train return +3.087  lr 1.51e-04  ent 0.0047  elapsed 3795s
+update  650  train return +3.099  lr 1.47e-04  ent 0.0046  elapsed 3846s
+update  660  train return +3.062  lr 1.44e-04  ent 0.0045  elapsed 3897s
+update  670  train return +2.977  lr 1.40e-04  ent 0.0044  elapsed 3945s
+update  680  train return +2.937  lr 1.37e-04  ent 0.0043  elapsed 3995s
+update  690  train return +3.061  lr 1.33e-04  ent 0.0043  elapsed 4048s
+update  700  train return +2.995  lr 1.30e-04  ent 0.0042  elapsed 4091s
+VAL update  700  generated: coverage 99.86% overlap 77.2% travel 5.93 m reward +3.015  |  vanity: coverage 99.15% steps 101 stuck False reward +2.488  score +2.752  <- best, saved
+update  710  train return +2.995  lr 1.27e-04  ent 0.0041  elapsed 4145s
+update  720  train return +2.979  lr 1.23e-04  ent 0.0040  elapsed 4196s
+update  730  train return +3.070  lr 1.20e-04  ent 0.0039  elapsed 4243s
+update  740  train return +2.671  lr 1.17e-04  ent 0.0038  elapsed 4290s
+update  750  train return +3.065  lr 1.13e-04  ent 0.0038  elapsed 4333s
+update  760  train return +3.047  lr 1.10e-04  ent 0.0037  elapsed 4386s
+update  770  train return +2.785  lr 1.07e-04  ent 0.0036  elapsed 4441s
+update  780  train return +2.980  lr 1.04e-04  ent 0.0035  elapsed 4487s
+update  790  train return +3.064  lr 1.01e-04  ent 0.0034  elapsed 4535s
+update  800  train return +3.081  lr 9.75e-05  ent 0.0033  elapsed 4579s
+VAL update  800  generated: coverage 99.61% overlap 76.2% travel 5.90 m reward +3.013  |  vanity: coverage 99.07% steps 101 stuck False reward +2.373  score +2.693
+update  810  train return +2.966  lr 9.45e-05  ent 0.0033  elapsed 4633s
+update  820  train return +2.933  lr 9.15e-05  ent 0.0032  elapsed 4682s
+update  830  train return +2.538  lr 8.85e-05  ent 0.0031  elapsed 4733s
+update  840  train return +2.953  lr 8.56e-05  ent 0.0030  elapsed 4786s
+update  850  train return +3.026  lr 8.28e-05  ent 0.0029  elapsed 4835s
+update  860  train return +3.067  lr 8.00e-05  ent 0.0028  elapsed 4883s
+update  870  train return +2.994  lr 7.73e-05  ent 0.0028  elapsed 4933s
+update  880  train return +2.669  lr 7.47e-05  ent 0.0027  elapsed 4981s
+update  890  train return +3.160  lr 7.21e-05  ent 0.0026  elapsed 5023s
+update  900  train return +3.060  lr 6.95e-05  ent 0.0025  elapsed 5071s
+VAL update  900  generated: coverage 99.58% overlap 76.3% travel 5.90 m reward +3.012  |  vanity: coverage 99.28% steps 101 stuck False reward +2.379  score +2.695
+update  910  train return +3.069  lr 6.71e-05  ent 0.0024  elapsed 5126s
+update  920  train return +2.924  lr 6.47e-05  ent 0.0023  elapsed 5177s

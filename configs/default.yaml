@@ -1,0 +1,24 @@
+paths:
+  input_csv: input/Vanity_Large_Top_Points.csv
+  results_dir: results
+  checkpoint: results/pointer_policy_v1.pt
+env:
+  tool_radius_m: 0.05
+  cell_m: 0.01
+  stroke_max_len_m: 0.25
+  coverage_target: 0.98
+  full_visit_target: 1.01
+ik:
+  restarts: 40
+  base_pos_m: [0.72, 0.40, 0.40]
+training:
+  updates: 1200
+  scenes: 12
+  rollouts: 8
+  lr: 3.0e-4
+  lr_min: 3.0e-5
+  ent: 0.01
+  val_every: 100
+  val_scenes: 10
+  seed: 0
+  val_seed: 555001
